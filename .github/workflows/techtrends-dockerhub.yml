@@ -27,6 +27,5 @@ jobs:
         name: Build and push Docker images
         uses: docker/build-push-action@v2.7.0
         with:
-          context: /project/Dockerfile
           push: true
           tags: tupo215/techtrends:latest

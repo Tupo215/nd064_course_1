@@ -1,5 +1,5 @@
 FROM python:2.7
-LABEL maintainer="Tupochele Chatuwa"
+LABEL maintainer="Tupo"
 
 EXPOSE 3111
 WORKDIR /app

@@ -10,6 +10,13 @@ replicaCount: 1
 
 containerPort: 3111
 
+livenessProbe:
+   httpGet:
+     path: /healthz
+readinessProbe:
+   httpGet:
+     path: /healthz
+
 service:
   port: 4111
   targetPort: 3111
